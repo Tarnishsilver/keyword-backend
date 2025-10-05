@@ -1,19 +1,21 @@
 {
-  "name": "keyword",
+  "name": "keyword-backend",
   "version": "1.0.0",
   "description": "",
+  "type":"module",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "cros": "^1.1.0",
     "csv-parser": "^3.2.0",
     "express": "^5.1.0",
-    "lucide-react": "^0.544.0"
+  },
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
   }
 }
